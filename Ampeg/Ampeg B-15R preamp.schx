@@ -1,0 +1,386 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schematic Name="" PartNumber="">
+  <Element Type="Circuit.Symbol" Rotation="-4" Flip="false" Position="-770,50">
+    <Component _Type="Circuit.Input" V0dBFS="1 V" Name="V1" Description="Ideal voltage source representing an input port." />
+  </Element>
+  <Element Type="Circuit.Symbol" Rotation="0" Flip="false" Position="-550,0">
+    <Component _Type="Circuit.Triode" Model="DempwolfZolzer" Mu="83.5" K="1.73E-06" Ex="1.4" Kg="1060" Kp="600" Kvb="300" Rgk="1 MΩ" Vg="330 mV" Gamma="1.26" G="0.002242" Gg="0.0006177" C="3.4" Cg="9.901" Xi="1.314" Ig0="80.25 nA" Name="V2" PartNumber="12AX7" Description="" />
+  </Element>
+  <Element Type="Circuit.Symbol" Rotation="5" Flip="false" Position="-520,-110">
+    <Component _Type="Circuit.Capacitor" Capacitance="100 nF" Name="C5" Description="Standard capacitor component" />
+  </Element>
+  <Element Type="Circuit.Symbol" Rotation="0" Flip="false" Position="-550,-150">
+    <Component _Type="Circuit.Resistor" Resistance="100 kΩ" Name="R1" Description="Standard resistor." />
+  </Element>
+  <Element Type="Circuit.Wire" A="-550,-130" B="-550,-20" />
+  <Element Type="Circuit.Symbol" Rotation="0" Flip="false" Position="-560,90">
+    <Component _Type="Circuit.Resistor" Resistance="1.5 kΩ" Name="R2" Description="Standard resistor." />
+  </Element>
+  <Element Type="Circuit.Symbol" Rotation="0" Flip="false" Position="-490,90">
+    <Component _Type="Circuit.Capacitor" Capacitance="22 μF" Name="C6" Description="Standard capacitor component" />
+  </Element>
+  <Element Type="Circuit.Symbol" Rotation="0" Flip="false" Position="-560,140">
+    <Component _Type="Circuit.Ground" WireName="GND" Name="GND3" Description="Nodes with the same name are connected as if they were connected by a continuous wire." />
+  </Element>
+  <Element Type="Circuit.Symbol" Rotation="-4" Flip="false" Position="-610,50">
+    <Component _Type="Circuit.Capacitor" Capacitance="470 pF" Name="C7" Description="Standard capacitor component" />
+  </Element>
+  <Element Type="Circuit.Symbol" Rotation="-4" Flip="false" Position="-710,50">
+    <Component _Type="Circuit.Resistor" Resistance="1 MΩ" Name="R3" Description="Standard resistor." />
+  </Element>
+  <Element Type="Circuit.Symbol" Rotation="-3" Flip="false" Position="-660,0">
+    <Component _Type="Circuit.Resistor" Resistance="10 kΩ" Name="R5" Description="Standard resistor." />
+  </Element>
+  <Element Type="Circuit.Symbol" Rotation="-4" Flip="false" Position="-710,100">
+    <Component _Type="Circuit.Ground" WireName="GND" Name="GND4" Description="Nodes with the same name are connected as if they were connected by a continuous wire." />
+  </Element>
+  <Element Type="Circuit.Symbol" Rotation="-4" Flip="false" Position="-610,100">
+    <Component _Type="Circuit.Ground" WireName="GND" Name="GND5" Description="Nodes with the same name are connected as if they were connected by a continuous wire." />
+  </Element>
+  <Element Type="Circuit.Symbol" Rotation="-4" Flip="false" Position="-770,100">
+    <Component _Type="Circuit.Ground" WireName="GND" Name="GND6" Description="Nodes with the same name are connected as if they were connected by a continuous wire." />
+  </Element>
+  <Element Type="Circuit.Symbol" Rotation="0" Flip="false" Position="-550,-200">
+    <Component _Type="Circuit.Rail" Voltage="225 V" Name="V4" Description="Single terminal voltage source with the cathode implicitly connected to ground." />
+  </Element>
+  <Element Type="Circuit.Wire" A="-710,0" B="-710,30" />
+  <Element Type="Circuit.Wire" A="-770,0" B="-710,0" />
+  <Element Type="Circuit.Wire" A="-710,0" B="-680,0" />
+  <Element Type="Circuit.Wire" A="-770,0" B="-770,30" />
+  <Element Type="Circuit.Wire" A="-770,70" B="-770,100" />
+  <Element Type="Circuit.Wire" A="-710,70" B="-710,100" />
+  <Element Type="Circuit.Wire" A="-610,70" B="-610,100" />
+  <Element Type="Circuit.Wire" A="-610,0" B="-610,30" />
+  <Element Type="Circuit.Wire" A="-560,20" B="-560,70" />
+  <Element Type="Circuit.Wire" A="-560,50" B="-490,50" />
+  <Element Type="Circuit.Wire" A="-490,50" B="-490,70" />
+  <Element Type="Circuit.Symbol" Rotation="0" Flip="false" Position="-490,140">
+    <Component _Type="Circuit.Ground" WireName="GND" Name="GND8" Description="Nodes with the same name are connected as if they were connected by a continuous wire." />
+  </Element>
+  <Element Type="Circuit.Wire" A="-560,110" B="-560,140" />
+  <Element Type="Circuit.Wire" A="-490,110" B="-490,140" />
+  <Element Type="Circuit.Wire" A="-550,-200" B="-550,-170" />
+  <Element Type="Circuit.Wire" A="-550,-110" B="-540,-110" />
+  <Element Type="Circuit.Symbol" Rotation="0" Flip="false" Position="-40,-90">
+    <Component _Type="Circuit.Triode" Model="DempwolfZolzer" Mu="83.5" K="1.73E-06" Ex="1.4" Kg="1060" Kp="600" Kvb="300" Rgk="1 MΩ" Vg="330 mV" Gamma="1.26" G="0.002242" Gg="0.0006177" C="3.4" Cg="9.901" Xi="1.314" Ig0="80.25 nA" Name="V7" PartNumber="12AX7" Description="" />
+  </Element>
+  <Element Type="Circuit.Symbol" Rotation="0" Flip="false" Position="-40,-240">
+    <Component _Type="Circuit.Resistor" Resistance="100 kΩ" Name="R4" Description="Standard resistor." />
+  </Element>
+  <Element Type="Circuit.Wire" A="-40,-220" B="-40,-110" />
+  <Element Type="Circuit.Symbol" Rotation="1" Flip="false" Position="10,-180">
+    <Component _Type="Circuit.Capacitor" Capacitance="100 nF" Name="C1" Description="Standard capacitor component" />
+  </Element>
+  <Element Type="Circuit.Symbol" Rotation="0" Flip="false" Position="-40,-290">
+    <Component _Type="Circuit.Rail" Voltage="225 V" Name="V8" Description="Single terminal voltage source with the cathode implicitly connected to ground." />
+  </Element>
+  <Element Type="Circuit.Wire" A="-40,-290" B="-40,-260" />
+  <Element Type="Circuit.Symbol" Rotation="-2" Flip="false" Position="-50,10">
+    <Component _Type="Circuit.Resistor" Resistance="1.5 kΩ" Name="R8" Description="Standard resistor." />
+  </Element>
+  <Element Type="Circuit.Symbol" Rotation="1" Flip="false" Position="0,-40">
+    <Component _Type="Circuit.Capacitor" Capacitance="33 nF" Name="C2" Description="Standard capacitor component" />
+  </Element>
+  <Element Type="Circuit.Symbol" Rotation="0" Flip="false" Position="-50,140">
+    <Component _Type="Circuit.Ground" WireName="GND" Name="GND7" Description="Nodes with the same name are connected as if they were connected by a continuous wire." />
+  </Element>
+  <Element Type="Circuit.Wire" A="-50,110" B="-50,140" />
+  <Element Type="Circuit.Wire" A="-40,-180" B="-10,-180" />
+  <Element Type="Circuit.Symbol" Rotation="0" Flip="false" Position="-50,90">
+    <Component _Type="Circuit.Resistor" Resistance="1.5 kΩ" Name="R6" Description="Standard resistor." />
+  </Element>
+  <Element Type="Circuit.Wire" A="-50,-70" B="-50,-40" />
+  <Element Type="Circuit.Wire" A="-50,-40" B="-50,-10" />
+  <Element Type="Circuit.Wire" A="-50,30" B="-50,70" />
+  <Element Type="Circuit.Symbol" Rotation="0" Flip="false" Position="50,90">
+    <Component _Type="Circuit.Resistor" Resistance="100 kΩ" Name="R7" Description="Standard resistor." />
+  </Element>
+  <Element Type="Circuit.Symbol" Rotation="0" Flip="false" Position="50,140">
+    <Component _Type="Circuit.Ground" WireName="GND" Name="GND1" Description="Nodes with the same name are connected as if they were connected by a continuous wire." />
+  </Element>
+  <Element Type="Circuit.Wire" A="50,110" B="50,140" />
+  <Element Type="Circuit.Wire" A="50,-40" B="50,70" />
+  <Element Type="Circuit.Wire" A="-50,-40" B="-20,-40" />
+  <Element Type="Circuit.Symbol" Rotation="0" Flip="false" Position="90,60">
+    <Component _Type="Circuit.Ground" WireName="GND" Name="GND11" Description="Nodes with the same name are connected as if they were connected by a continuous wire." />
+  </Element>
+  <Element Type="Circuit.Wire" A="90,30" B="90,60" />
+  <Element Type="Circuit.Wire" A="80,-40" B="80,-10" />
+  <Element Type="Circuit.Wire" A="20,-40" B="50,-40" />
+  <Element Type="Circuit.Wire" A="50,-40" B="80,-40" />
+  <Element Type="Circuit.Symbol" Rotation="0" Flip="false" Position="-90,-10">
+    <Component _Type="Circuit.Resistor" Resistance="1 MΩ" Name="R9" Description="Standard resistor." />
+  </Element>
+  <Element Type="Circuit.Wire" A="-90,-90" B="-90,-30" />
+  <Element Type="Circuit.Wire" A="-90,10" B="-90,50" />
+  <Element Type="Circuit.Symbol" Rotation="-1" Flip="false" Position="-130,-90">
+    <Component _Type="Circuit.Capacitor" Capacitance="100 nF" Name="C4" Description="Standard capacitor component" />
+  </Element>
+  <Element Type="Circuit.Wire" A="-190,-70" B="-190,-40" />
+  <Element Type="Circuit.Symbol" Rotation="0" Flip="false" Position="-190,-40">
+    <Component _Type="Circuit.Ground" WireName="GND" Name="GND12" Description="Nodes with the same name are connected as if they were connected by a continuous wire." />
+  </Element>
+  <Element Type="Circuit.Symbol" Rotation="-1" Flip="false" Position="-190,-230">
+    <Component _Type="Circuit.Resistor" Resistance="3.3 MΩ" Name="R10" Description="Standard resistor." />
+  </Element>
+  <Element Type="Circuit.Symbol" Rotation="0" Flip="false" Position="-140,-200">
+    <Component _Type="Circuit.Ground" WireName="GND" Name="GND2" Description="Nodes with the same name are connected as if they were connected by a continuous wire." />
+  </Element>
+  <Element Type="Circuit.Wire" A="-170,-230" B="-140,-230" />
+  <Element Type="Circuit.Wire" A="-140,-230" B="-140,-200" />
+  <Element Type="Circuit.Symbol" Rotation="-1" Flip="false" Position="-320,-230">
+    <Component _Type="Circuit.Capacitor" Capacitance="470 pF" Name="C3" Description="Standard capacitor component" />
+  </Element>
+  <Element Type="Circuit.Wire" A="-300,-230" B="-210,-230" />
+  <Element Type="Circuit.Symbol" Rotation="-1" Flip="false" Position="-350,-170">
+    <Component _Type="Circuit.Resistor" Resistance="220 kΩ" Name="R11" Description="Standard resistor." />
+  </Element>
+  <Element Type="Circuit.Wire" A="-270,-110" B="-270,-90" />
+  <Element Type="Circuit.Wire" A="-270,-90" B="-250,-90" />
+  <Element Type="Circuit.Wire" A="-250,-230" B="-250,-90" />
+  <Element Type="Circuit.Wire" A="-280,-170" B="-280,-150" />
+  <Element Type="Circuit.Wire" A="-290,-110" B="-290,-90" />
+  <Element Type="Circuit.Wire" A="-400,-90" B="-290,-90" />
+  <Element Type="Circuit.Wire" A="-400,-170" B="-370,-170" />
+  <Element Type="Circuit.Symbol" Rotation="-1" Flip="false" Position="-350,-50">
+    <Component _Type="Circuit.Resistor" Resistance="330 kΩ" Name="R12" Description="Standard resistor." />
+  </Element>
+  <Element Type="Circuit.Wire" A="-400,-170" B="-400,-90" />
+  <Element Type="Circuit.Wire" A="-400,-50" B="-370,-50" />
+  <Element Type="Circuit.Symbol" Rotation="0" Flip="true" Position="80,10">
+    <Component _Type="Circuit.SPDT" Position="0" Group="" Name="Ultra Hi" Description="single pole double-throw switch." />
+  </Element>
+  <Element Type="Circuit.Symbol" Rotation="8" Flip="true" Position="-280,-130">
+    <Component _Type="Circuit.SPDT" Position="0" Group="Ultra Lo" Name="ULTRALO" Description="single pole double-throw switch." />
+  </Element>
+  <Element Type="Circuit.Symbol" Rotation="8" Flip="true" Position="-280,-10">
+    <Component _Type="Circuit.SPDT" Position="0" Group="Ultra Lo" Name="ULTRALO1" Description="single pole double-throw switch." />
+  </Element>
+  <Element Type="Circuit.Symbol" Rotation="0" Flip="false" Position="-180,-90">
+    <Component _Type="Circuit.Potentiometer" Resistance="1 MΩ" Wipe="0.5" Sweep="Logarithmic" Group="" Name="Gain" Description="Represents a potentiometer. When Wipe is 0, the wiper is at the cathode." />
+  </Element>
+  <Element Type="Circuit.Wire" A="-330,-50" B="-310,-50" />
+  <Element Type="Circuit.Wire" A="-310,-50" B="-310,30" />
+  <Element Type="Circuit.Wire" A="-310,30" B="-290,30" />
+  <Element Type="Circuit.Wire" A="-290,10" B="-290,30" />
+  <Element Type="Circuit.Wire" A="-280,-60" B="-280,-30" />
+  <Element Type="Circuit.Wire" A="-190,-170" B="-190,-110" />
+  <Element Type="Circuit.Symbol" Rotation="0" Flip="false" Position="-270,90">
+    <Component _Type="Circuit.Resistor" Resistance="3.3 MΩ" Name="R13" Description="Standard resistor." />
+  </Element>
+  <Element Type="Circuit.Wire" A="-270,110" B="-270,140" />
+  <Element Type="Circuit.Symbol" Rotation="0" Flip="false" Position="-270,140">
+    <Component _Type="Circuit.Ground" WireName="GND" Name="GND13" Description="Nodes with the same name are connected as if they were connected by a continuous wire." />
+  </Element>
+  <Element Type="Circuit.Wire" A="-270,10" B="-270,70" />
+  <Element Type="Circuit.Symbol" Rotation="-1" Flip="false" Position="-350,60">
+    <Component _Type="Circuit.Capacitor" Capacitance="4.7 nF" Name="C8" Description="Standard capacitor component" />
+  </Element>
+  <Element Type="Circuit.Wire" A="-330,60" B="-270,60" />
+  <Element Type="Circuit.Wire" A="-400,-90" B="-400,-50" />
+  <Element Type="Circuit.Wire" A="-400,-50" B="-400,60" />
+  <Element Type="Circuit.Symbol" Rotation="0" Flip="false" Position="-440,10">
+    <Component _Type="Circuit.Resistor" Resistance="220 kΩ" Name="R14" Description="Standard resistor." />
+  </Element>
+  <Element Type="Circuit.Wire" A="-440,30" B="-440,60" />
+  <Element Type="Circuit.Wire" A="-440,60" B="-400,60" />
+  <Element Type="Circuit.Wire" A="-400,60" B="-370,60" />
+  <Element Type="Circuit.Symbol" Rotation="0" Flip="false" Position="-440,-130">
+    <Component _Type="Circuit.Resistor" Resistance="100 kΩ" Name="R15" Description="Standard resistor." />
+  </Element>
+  <Element Type="Circuit.Wire" A="-440,-110" B="-440,-10" />
+  <Element Type="Circuit.Wire" A="-440,-230" B="-440,-150" />
+  <Element Type="Circuit.Wire" A="-440,-230" B="-340,-230" />
+  <Element Type="Circuit.Wire" A="-170,-90" B="-150,-90" />
+  <Element Type="Circuit.Symbol" Rotation="0" Flip="false" Position="180,-100">
+    <Component _Type="Circuit.Resistor" Resistance="221 kΩ" Name="R16" Description="Standard resistor." />
+  </Element>
+  <Element Type="Circuit.Symbol" Rotation="0" Flip="false" Position="180,40">
+    <Component _Type="Circuit.Resistor" Resistance="22.1 kΩ" Name="R17" Description="Standard resistor." />
+  </Element>
+  <Element Type="Circuit.Symbol" Rotation="0" Flip="false" Position="190,-30">
+    <Component _Type="Circuit.Potentiometer" Resistance="1 MΩ" Wipe="0.5" Sweep="Logarithmic" Group="" Name="Bass" Description="Represents a potentiometer. When Wipe is 0, the wiper is at the cathode." />
+  </Element>
+  <Element Type="Circuit.Wire" A="180,-180" B="180,-120" />
+  <Element Type="Circuit.Wire" A="180,-80" B="180,-50" />
+  <Element Type="Circuit.Wire" A="180,-10" B="180,20" />
+  <Element Type="Circuit.Wire" A="180,60" B="180,80" />
+  <Element Type="Circuit.Symbol" Rotation="0" Flip="false" Position="180,80">
+    <Component _Type="Circuit.Ground" WireName="GND" Name="GND14" Description="Nodes with the same name are connected as if they were connected by a continuous wire." />
+  </Element>
+  <Element Type="Circuit.Symbol" Rotation="0" Flip="false" Position="240,-60">
+    <Component _Type="Circuit.Capacitor" Capacitance="1 nF" Name="C9" Description="Standard capacitor component" />
+  </Element>
+  <Element Type="Circuit.Symbol" Rotation="0" Flip="false" Position="240,0">
+    <Component _Type="Circuit.Capacitor" Capacitance="10 nF" Name="C10" Description="Standard capacitor component" />
+  </Element>
+  <Element Type="Circuit.Wire" A="180,-80" B="240,-80" />
+  <Element Type="Circuit.Wire" A="180,20" B="240,20" />
+  <Element Type="Circuit.Wire" A="240,-40" B="240,-30" />
+  <Element Type="Circuit.Wire" A="240,-30" B="240,-20" />
+  <Element Type="Circuit.Wire" A="200,-30" B="240,-30" />
+  <Element Type="Circuit.Wire" A="240,-30" B="270,-30" />
+  <Element Type="Circuit.Symbol" Rotation="-1" Flip="false" Position="290,-30">
+    <Component _Type="Circuit.Resistor" Resistance="100 kΩ" Name="R18" Description="Standard resistor." />
+  </Element>
+  <Element Type="Circuit.Symbol" Rotation="3" Flip="true" Position="620,100">
+    <Component _Type="Circuit.Potentiometer" Resistance="50 kΩ" Wipe="0.5" Sweep="Linear" Group="" Name="Middle" Description="Represents a potentiometer. When Wipe is 0, the wiper is at the cathode." />
+  </Element>
+  <Element Type="Circuit.Symbol" Rotation="-2" Flip="true" Position="370,330">
+    <Component _Type="Circuit.SP5T" Position="0" Group="" Name="Freq" Description="single pole triple-throw switch." />
+  </Element>
+  <Element Type="Circuit.Symbol" Rotation="6" Flip="true" Position="360,-30">
+    <Component _Type="Circuit.Potentiometer" Resistance="1 MΩ" Wipe="0.5" Sweep="Logarithmic" Group="" Name="Trebble" Description="Represents a potentiometer. When Wipe is 0, the wiper is at the cathode." />
+  </Element>
+  <Element Type="Circuit.Wire" A="370,50" B="370,60" />
+  <Element Type="Circuit.Wire" A="370,-10" B="370,10" />
+  <Element Type="Circuit.Wire" A="310,-30" B="350,-30" />
+  <Element Type="Circuit.Symbol" Rotation="0" Flip="false" Position="370,30">
+    <Component _Type="Circuit.Capacitor" Capacitance="4.7 nF" Name="C11" Description="Standard capacitor component" />
+  </Element>
+  <Element Type="Circuit.Symbol" Rotation="-1" Flip="false" Position="250,-180">
+    <Component _Type="Circuit.Capacitor" Capacitance="470 pF" Name="C12" Description="Standard capacitor component" />
+  </Element>
+  <Element Type="Circuit.Wire" A="30,-180" B="180,-180" />
+  <Element Type="Circuit.Wire" A="180,-180" B="230,-180" />
+  <Element Type="Circuit.Wire" A="270,-180" B="370,-180" />
+  <Element Type="Circuit.Wire" A="370,-180" B="370,-50" />
+  <Element Type="Circuit.Wire" A="330,-70" B="330,-30" />
+  <Element Type="Circuit.Wire" A="-500,-110" B="-440,-110" />
+  <Element Type="Circuit.Symbol" Rotation="0" Flip="false" Position="540,-70">
+    <Component _Type="Circuit.Triode" Model="DempwolfZolzer" Mu="83.5" K="1.73E-06" Ex="1.4" Kg="1060" Kp="600" Kvb="300" Rgk="1 MΩ" Vg="330 mV" Gamma="1.26" G="0.002242" Gg="0.0006177" C="3.4" Cg="9.901" Xi="1.314" Ig0="80.25 nA" Name="V3" PartNumber="12AX7" Description="" />
+  </Element>
+  <Element Type="Circuit.Symbol" Rotation="0" Flip="false" Position="770,40">
+    <Component _Type="Circuit.Speaker" V0dBFS="1 V" Impedance="∞ Ω" Name="S1" Description="Ideal speaker." />
+  </Element>
+  <Element Type="Circuit.Wire" A="700,30" B="700,60" />
+  <Element Type="Circuit.Symbol" Rotation="0" Flip="false" Position="710,10">
+    <Component _Type="Circuit.Potentiometer" Resistance="50 kΩ" Wipe="0.5" Sweep="Logarithmic" Group="" Name="Volume" Description="Represents a potentiometer. When Wipe is 0, the wiper is at the cathode." />
+  </Element>
+  <Element Type="Circuit.Symbol" Rotation="-1" Flip="false" Position="410,-70">
+    <Component _Type="Circuit.Resistor" Resistance="100 kΩ" Name="R19" Description="Standard resistor." />
+  </Element>
+  <Element Type="Circuit.Wire" A="330,-70" B="390,-70" />
+  <Element Type="Circuit.Symbol" Rotation="-1" Flip="false" Position="470,-70">
+    <Component _Type="Circuit.Capacitor" Capacitance="100 nF" Name="C13" Description="Standard capacitor component" />
+  </Element>
+  <Element Type="Circuit.Wire" A="430,-70" B="450,-70" />
+  <Element Type="Circuit.Symbol" Rotation="0" Flip="false" Position="490,-30">
+    <Component _Type="Circuit.Resistor" Resistance="1 MΩ" Name="R20" Description="Standard resistor." />
+  </Element>
+  <Element Type="Circuit.Wire" A="490,-70" B="490,-50" />
+  <Element Type="Circuit.Wire" A="-640,0" B="-610,0" />
+  <Element Type="Circuit.Wire" A="-610,0" B="-570,0" />
+  <Element Type="Circuit.Wire" A="-330,-170" B="-280,-170" />
+  <Element Type="Circuit.Wire" A="-280,-170" B="-190,-170" />
+  <Element Type="Circuit.Wire" A="-280,-60" B="-190,-60" />
+  <Element Type="Circuit.Wire" A="-110,-90" B="-90,-90" />
+  <Element Type="Circuit.Wire" A="-90,-90" B="-60,-90" />
+  <Element Type="Circuit.Wire" A="-90,50" B="-50,50" />
+  <Element Type="Circuit.Symbol" Rotation="-2" Flip="false" Position="530,-10">
+    <Component _Type="Circuit.Resistor" Resistance="1.5 kΩ" Name="R21" Description="Standard resistor." />
+  </Element>
+  <Element Type="Circuit.Symbol" Rotation="-2" Flip="false" Position="530,40">
+    <Component _Type="Circuit.Resistor" Resistance="2.21 kΩ" Name="R22" Description="Standard resistor." />
+  </Element>
+  <Element Type="Circuit.Wire" A="530,-50" B="530,-30" />
+  <Element Type="Circuit.Wire" A="490,-10" B="490,10" />
+  <Element Type="Circuit.Wire" A="530,10" B="530,20" />
+  <Element Type="Circuit.Wire" A="180,60" B="370,60" />
+  <Element Type="Circuit.Wire" A="490,-70" B="520,-70" />
+  <Element Type="Circuit.Symbol" Rotation="-2" Flip="false" Position="540,-140">
+    <Component _Type="Circuit.Resistor" Resistance="100 kΩ" Name="R23" Description="Standard resistor." />
+  </Element>
+  <Element Type="Circuit.Wire" A="540,-120" B="540,-90" />
+  <Element Type="Circuit.Wire" A="540,-190" B="540,-160" />
+  <Element Type="Circuit.Symbol" Rotation="0" Flip="false" Position="540,-190">
+    <Component _Type="Circuit.Rail" Voltage="225 V" Name="V5" Description="Single terminal voltage source with the cathode implicitly connected to ground." />
+  </Element>
+  <Element Type="Circuit.Symbol" Rotation="-1" Flip="false" Position="580,-100">
+    <Component _Type="Circuit.Capacitor" Capacitance="100 nF" Name="C14" Description="Standard capacitor component" />
+  </Element>
+  <Element Type="Circuit.Wire" A="540,-100" B="560,-100" />
+  <Element Type="Circuit.Wire" A="600,-100" B="620,-100" />
+  <Element Type="Circuit.Wire" A="620,-100" B="620,-80" />
+  <Element Type="Circuit.Symbol" Rotation="0" Flip="false" Position="620,-60">
+    <Component _Type="Circuit.Resistor" Resistance="100 kΩ" Name="R24" Description="Standard resistor." />
+  </Element>
+  <Element Type="Circuit.Symbol" Rotation="0" Flip="false" Position="620,10">
+    <Component _Type="Circuit.Resistor" Resistance="10 kΩ" Name="R25" Description="Standard resistor." />
+  </Element>
+  <Element Type="Circuit.Wire" A="370,60" B="530,60" />
+  <Element Type="Circuit.Wire" A="620,30" B="620,60" />
+  <Element Type="Circuit.Wire" A="620,-40" B="620,-10" />
+  <Element Type="Circuit.Wire" A="530,60" B="620,60" />
+  <Element Type="Circuit.Wire" A="620,-40" B="700,-40" />
+  <Element Type="Circuit.Wire" A="700,-40" B="700,-10" />
+  <Element Type="Circuit.Wire" A="620,60" B="700,60" />
+  <Element Type="Circuit.Wire" A="700,60" B="770,60" />
+  <Element Type="Circuit.Wire" A="770,10" B="770,20" />
+  <Element Type="Circuit.Wire" A="720,10" B="770,10" />
+  <Element Type="Circuit.Symbol" Rotation="-2" Flip="false" Position="650,-20">
+    <Component _Type="Circuit.Resistor" Resistance="475 Ω" Name="R26" Description="Standard resistor." />
+  </Element>
+  <Element Type="Circuit.Wire" A="640,90" B="650,90" />
+  <Element Type="Circuit.Wire" A="650,0" B="650,90" />
+  <Element Type="Circuit.Wire" A="580,90" B="600,90" />
+  <Element Type="Circuit.Wire" A="490,10" B="530,10" />
+  <Element Type="Circuit.Symbol" Rotation="0" Flip="false" Position="580,20">
+    <Component _Type="Circuit.Capacitor" Capacitance="10 μF" Name="C15" Description="Standard capacitor component" />
+  </Element>
+  <Element Type="Circuit.Wire" A="530,-30" B="580,-30" />
+  <Element Type="Circuit.Wire" A="580,-30" B="580,0" />
+  <Element Type="Circuit.Wire" A="580,40" B="580,90" />
+  <Element Type="Circuit.Symbol" Rotation="0" Flip="false" Position="620,330">
+    <Component _Type="Circuit.Resistor" Resistance="470 kΩ" Name="R27" Description="Standard resistor." />
+  </Element>
+  <Element Type="Circuit.Symbol" Rotation="-1" Flip="false" Position="470,280">
+    <Component _Type="Circuit.Capacitor" Capacitance="150 nF" Name="C16" Description="Standard capacitor component" />
+  </Element>
+  <Element Type="Circuit.Wire" A="620,270" B="620,310" />
+  <Element Type="Circuit.Wire" A="620,350" B="620,370" />
+  <Element Type="Circuit.Symbol" Rotation="0" Flip="false" Position="620,370">
+    <Component _Type="Circuit.Ground" WireName="GND" Name="GND9" Description="Nodes with the same name are connected as if they were connected by a continuous wire." />
+  </Element>
+  <Element Type="Circuit.Symbol" Rotation="0" Flip="false" Position="620,150">
+    <Component _Type="Circuit.Inductor" Inductance="125 mH" Name="L1" Description="Standard inductor." />
+  </Element>
+  <Element Type="Circuit.Wire" A="620,110" B="620,130" />
+  <Element Type="Circuit.Symbol" Rotation="0" Flip="false" Position="330,190">
+    <Component _Type="Circuit.Capacitor" Capacitance="33 nF" Name="C17" Description="Standard capacitor component" />
+  </Element>
+  <Element Type="Circuit.Wire" A="550,350" B="620,350" />
+  <Element Type="Circuit.Symbol" Rotation="-1" Flip="false" Position="520,310">
+    <Component _Type="Circuit.Capacitor" Capacitance="680 nF" Name="C18" Description="Standard capacitor component" />
+  </Element>
+  <Element Type="Circuit.Wire" A="370,350" B="470,350" />
+  <Element Type="Circuit.Wire" A="470,350" B="550,350" />
+  <Element Type="Circuit.Symbol" Rotation="0" Flip="false" Position="620,250">
+    <Component _Type="Circuit.Inductor" Inductance="500 mH" Name="L2" Description="Standard inductor." />
+  </Element>
+  <Element Type="Circuit.Symbol" Rotation="0" Flip="false" Position="620,200">
+    <Component _Type="Circuit.Inductor" Inductance="175 mH" Name="L3" Description="Standard inductor." />
+  </Element>
+  <Element Type="Circuit.Wire" A="620,170" B="620,180" />
+  <Element Type="Circuit.Wire" A="620,220" B="620,230" />
+  <Element Type="Circuit.Wire" A="410,310" B="500,310" />
+  <Element Type="Circuit.Wire" A="540,310" B="620,310" />
+  <Element Type="Circuit.Wire" A="490,280" B="620,280" />
+  <Element Type="Circuit.Wire" A="390,280" B="450,280" />
+  <Element Type="Circuit.Wire" A="390,280" B="390,310" />
+  <Element Type="Circuit.Wire" A="330,210" B="330,310" />
+  <Element Type="Circuit.Wire" A="330,170" B="480,170" />
+  <Element Type="Circuit.Wire" A="480,170" B="620,170" />
+  <Element Type="Circuit.Symbol" Rotation="-1" Flip="false" Position="370,220">
+    <Component _Type="Circuit.Capacitor" Capacitance="33 nF" Name="C19" Description="Standard capacitor component" />
+  </Element>
+  <Element Type="Circuit.Wire" A="390,220" B="620,220" />
+  <Element Type="Circuit.Symbol" Rotation="-1" Flip="false" Position="430,250">
+    <Component _Type="Circuit.Capacitor" Capacitance="100 nF" Name="C20" Description="Standard capacitor component" />
+  </Element>
+  <Element Type="Circuit.Wire" A="350,220" B="350,310" />
+  <Element Type="Circuit.Wire" A="370,250" B="370,310" />
+  <Element Type="Circuit.Wire" A="450,250" B="500,250" />
+  <Element Type="Circuit.Wire" A="500,220" B="500,250" />
+  <Element Type="Circuit.Wire" A="370,250" B="410,250" />
+</Schematic>
